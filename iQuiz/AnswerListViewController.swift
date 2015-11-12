@@ -11,6 +11,7 @@ import UIKit
 class AnswerListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     var question = Question(question: "",answers: [],correctAnswer: "")
+    var questions = [Question]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,6 +47,7 @@ class AnswerListViewController: UIViewController, UITableViewDataSource, UITable
             let cell = sender as! quizCell
             view.question = question
             view.given = question.answers[cell.answerIndex]
+            view.questions = questions
             
         }
         // Get the new view controller using segue.destinationViewController.

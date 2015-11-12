@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "03788119D14774898BCCE96660423C5A90963638",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "63D954815D9B28F61DD9852C9B74330359C3E7F1" : 0,
+    "03788119D14774898BCCE96660423C5A90963638" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5BA28126-0062-44A9-873A-A42084F94408",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "63D954815D9B28F61DD9852C9B74330359C3E7F1" : "",
+    "03788119D14774898BCCE96660423C5A90963638" : "iQuiz-part2\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iQuiz",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iQuiz.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ahnj12\/iQuiz-part2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "03788119D14774898BCCE96660423C5A90963638"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ahnj12\/domainmodeling.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "63D954815D9B28F61DD9852C9B74330359C3E7F1"
+    }
+  ]
+}

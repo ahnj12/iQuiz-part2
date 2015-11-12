@@ -224,19 +224,19 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2IU-tf-Zza">
-                                <rect key="frame" x="178" y="514" width="111" height="30"/>
-                                <state key="normal" title="Back to Quizzes"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="goToQuiz" id="wyU-D1-Cy4"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Qm-KN-NkS">
                                 <rect key="frame" x="20" y="20" width="240" height="150"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2IU-tf-Zza">
+                                <rect key="frame" x="154" y="514" width="135" height="40"/>
+                                <state key="normal" title="Back to Questions"/>
+                                <connections>
+                                    <segue destination="Fip-8B-sI2" kind="show" id="Ag6-7H-rIj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -252,6 +252,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="wyU-D1-Cy4"/>
+        <segue reference="Ag6-7H-rIj"/>
+        <segue reference="Vvh-PY-dWO"/>
     </inferredMetricsTieBreakers>
 </document>

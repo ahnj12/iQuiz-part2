@@ -17,11 +17,7 @@ class QuestionViewController: UIViewController, UITableViewDataSource, UITableVi
     override func viewDidLoad() {
         super.viewDidLoad()
         questionTableView.reloadData()
-//        self.answer1.addTarget(self, action: "addToAnswer:", forControlEvents: UIControlEvents.TouchUpInside)
-//        
-//        self.answer2.addTarget(self, action: "addToAnswer:", forControlEvents: UIControlEvents.TouchUpInside)
-//        self.answer3.addTarget(self, action: "addToAnswer:", forControlEvents: UIControlEvents.TouchUpInside)
-//        self.answer4.addTarget(self, action: "addToAnswer:", forControlEvents: UIControlEvents.TouchUpInside)
+
 
         // Do any additional setup after loading the view.
     }
@@ -63,6 +59,7 @@ class QuestionViewController: UIViewController, UITableViewDataSource, UITableVi
             let cell = sender as! quizCell
             
             view.question = questions[cell.index]
+            view.questions = questions
         }
         
         
